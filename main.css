@@ -1,11 +1,10 @@
-/* * {
-  border: 1px solid pink;
-} */
-
-
 /* Styles */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
   color: white;
 }
 
@@ -21,6 +20,11 @@ body {
   background-color: #990000;
 }
 
+#content {
+  color: #535353;
+  font-size: 0.75em;
+}
+
 /* Struture */
 
 .group::after {
@@ -29,9 +33,8 @@ body {
   clear: both;
 }
 
-
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .fixedWidth {
@@ -127,7 +130,7 @@ body {
 }
 
 #rss {
-  float:right;
+  float: right;
   margin-top: 45px;
   padding-right: 28px;
 }
@@ -144,7 +147,6 @@ body {
   padding-top: 65px;
 }
 
-
 #topicMenu ul {
   background-color: #3E0C0D;
   padding: 5px 0 0 5px;
@@ -152,7 +154,6 @@ body {
   width: 1120px;
   padding: 0;
   margin-left: 25px;
-
 }
 
 #topicMenu li {
@@ -163,10 +164,39 @@ body {
 }
 
 #topicMenu li:last-child {
-  border:  none;
+  border: none;
 }
 
 .liSelected {
   background-color: #EDEDED;
   color: #666666;
+}
+
+.mainWrapper {
+  width: 88%;
+  margin: 0 auto;
+}
+
+.allArticlesWrapper {
+  width: 625px;
+}
+
+.floaters img {
+  float: left;
+  width: 304px;
+}
+
+.articleBox {
+  float: right;
+  width: 304px;
+  padding-left: 10px;
+}
+
+.asideFloat {
+  float: right;
+  width: 336px;
+}
+
+.mainFloat {
+  float: left;
 }
