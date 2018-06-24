@@ -6,58 +6,64 @@
   <!-- <link rel="stylesheet" type="text/css" href="rest.css"> -->
   <link rel="stylesheet" type="text/css" href="main.css">
 
-  <title>BBC Clone</title>
+  <title>BBC News UK - Clone</title>
 </head>
 
 <body>
-  <header>
+  <header class="group">
     <div class="wrap">
-      <div id="topBar">
+      <div id="topBar" class="">
         <div class="fixedWidth">
           <div id="logoDiv" class="borderRight">
-            <img src="bbc.png" alt="BBC logo" height="35px">
+            <a href="#">
+            <img src="bbc.png" alt="BBC logo" height="24px"></a>
           </div>
           <div id="loginDiv" class="borderRight">
-            <p><img src="login-icon.png" alt="Login Icon"> Sgin In</p>
+            <a href="#"><img src="login-icon.png" alt="Login Icon" height="24px"> Sgin In</a>
           </div>
           <div id="topMenuDiv" class="">
-            <ul>
-              <li>News</li>
-              <li>Sport</li>
-              <li>Weather</li>
-              <li>IPlayer</li>
-              <li>TV</li>
-              <li>Radio</li>
-              <li>More...</li>
+            <ul class="noMargin">
+              <li id="news"><a href="#">News</a></li>
+              <li><a href="#">Sport</a></li>
+              <li><a href="#">Weather</a></li>
+              <li><a href="#">IPlayer</a></li>
+              <li><a href="#">TV</a></li>
+              <li><a href="#">Radio</a></li>
+              <li><a href="#">More...</a></li>
             </ul>
           </div>
           <div id="searchDiv" class="">
             <input type="text" placeholder="Search" />
           </div>
         </div>
+
+
       </div>
-      <div id="newsBar" class="">
+      <div id="newsBar" class="clearFloats">
         <div class="fixedWidth">
-          <p id="newsHeader">NEWS<span id="uk">UK</span></p>
-          <div id="rss" class="">
-            <p>RSS</p> <img src="rss.png" alt="RSS icon">
+          <div class="">
+            <p id="newsHeader">NEWS<span id="uk">UK</span></p>
+            <div id="rss" class="">
+              <p>RSS</p> <img src="rss.png" alt="RSS icon">
+            </div>
           </div>
+
           <div id="topicMenu">
-            <ul>
-              <li>Home</li>
-              <li>World</li>
-              <li class="liSelected">UK</li>
-              <li>England</li>
-              <li>N. Ireland</li>
-              <li>Scotland</li>
-              <li>Wales</li>
-              <li>Busienss</li>
-              <li>Politics</li>
-              <li>Health</li>
-              <li>Education</li>
-              <li>Sci/Environment</li>
-              <li>Technology</li>
-              <li>Entertainment & Arts</li>
+            <ul class="">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">World</a></li>
+              <li id="liSelected"><a href="#">UK</a></li>
+              <li><a href="#">England</a></li>
+              <li><a href="#">N. Ireland</a></li>
+              <li><a href="#">Scotland</a></li>
+              <li><a href="#">Wales</a></li>
+              <li><a href="#">Busienss</a></li>
+              <li><a href="#">Politics</a></li>
+              <li><a href="#">Health</a></li>
+              <li><a href="#">Education</a></li>
+              <li><a href="#">Sci/Environment</a></li>
+              <li><a href="#">Technology</a></li>
+              <li><a href="#">Entertainment & Arts</a></li>
             </ul>
           </div>
         </div>
@@ -65,7 +71,7 @@
   </header>
 
   <div class="mainWrapper">
-    <main id="content" class="mainFloat">
+    <main id="content" class="floatLeft">
 
       <div class="fixedWidth">
         <p><strong>June 2018</strong> Last Updated at 06:15</p>
@@ -73,7 +79,7 @@
 
       <div class="allArticlesWrapper ">
 
-        <article class="floaters">
+        <article class="floaters underline">
           <h1>Labour hires Obama poll guru Axelrod</h1>
           <div class="group">
             <img src="article1.jpg" alt="Picture of David Axelrod.">
@@ -85,11 +91,12 @@
           </div>
         </article>
 
-        <article class="floaters">
-          <h3>Channel Tunnel train delay 'chaos'</h3>
+        <article class="floaters underline">
+
           <div class="group">
             <img src="article2.jpg" alt="Picture of channel tunnel train station queue.">
             <div class="articleBox">
+              <h3>Channel Tunnel train delay 'chaos'</h3>
               <p>Hundreds of Channel Tunnel rail passengers face major delays after several technical problems led to the cancellation of services.</p>
               <p>'Police at Eurostar check-in desk'</p>
               <p>Delays 'beyond our control'</p>
@@ -98,18 +105,95 @@
           </div>
         </article>
 
-        <article class="floaters">
-          <h3>Teachers' unions meet amid disputes</h3>
+        <article class="floaters underline">
+
           <div class="group">
             <img src="article3.jpg" alt="Stock photo class room depicting teacher teaching at a whiteboard to students.">
             <div class="articleBox">
+              <h3>Teachers' unions meet amid disputes</h3>
               <p>Calls for more action over pay and pensions are expected this weekend when the two biggest teachers' unions meet for their annual conferences.</p>
               <p>Thousands of schools shut by strike</p>
               <p>Why teachers are on strike</p>
             </div>
           </div>
         </article>
+
+        <div class="group underline">
+          <div class="floatLeft">
+
+            <article class="underline">
+              <h3>Mother tells of lion park ordeal</h3>
+              <p>A mother tells of her family's lucky escape after their car caught fire in the lion enclosure at Longleat Safari Park.</p>
+            </article>
+            <article class="">
+              <h3>Quango chair resigns over bankruptcy</h3>
+              <p>A businessman appointed by the prime minister to head a multibillion-pound quango steps down after it was revealed that he was bankrupt.</p>
+            </article>
+          </div>
+          <aside class="floatRight listPadding">
+            <ul>
+              <li><a>Teachers warn of CCTV intrusion</a></li>
+              <li><a>Burnt boy in 'critical condition'</a></li>
+              <li><a>STV quits CBI over referendum stance</a></li>
+              <li><a>Menopause 'worse' in too warm schools</a></li>
+              <li> <a>Murder probe after pub attack death</a></li>
+              <li><a>Women-only Scottish cabinet event</a></li>
+              <li><a>Hundreds march against badger cull</a></li>
+            </ul>
+          </aside>
+        </div>
+
+
+        <section class="AlsoInTheNews group">
+          <h1 class="underline floaters noMargin">Also In the News</h1>
+          <div class="floaters">
+
+
+            <div class="floatLeft">
+              <div class="group">
+                <img src="horseMuseum.jpg" alt="">
+                <a>'War Horse farm' opens up museum</a>
+              </div>
+
+              <h3 class="noMargin">Local News</h3>
+
+            </div>
+            <div class="floatRight">
+              <div class="group">
+                <img src="popCathedral.jpg" alt="">
+                <a>Crowds flock to 'pop-up cathedral'</a>
+              </div>
+
+              <h3 class="noMargin">Weather</h3>
+            </div>
+
+
+          </div>
+        </section>
+        <section>
+          <div class="localNewsDiv group">
+            <div class="floatLeft localNewsSubDivs">
+              <h2>Northern Ireland</h2>
+              <a href="#">Man held over NI dissident murder</a>
+              <a href="#">Motorcyclists die in road accidents</a>
+              <h2>Wales &vert; Cymru</h2>
+              <a href="#">Hospital death inquest to be held</a>
+              <a href="#">Biker killed and two riders injured</a>
+            </div>
+            <div class="floatRight localNewsSubDivs">
+              <h2>Scotland &vert; Alba</h2>
+              <a href="#">Woman's death treated as suspicious</a>
+              <a href="#">Mobility scooter plunge OAP dies</a>
+              <h2>England</h2>
+              <a href="#">'Drink-drive' crash injures officer</a>
+              <a href="#">Five pulled from car before fire</a>
+            </div>
+          </div>
+        </section>
       </div>
+
+
+
     </main>
 
     <aside class="asideFloat">
