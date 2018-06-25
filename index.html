@@ -24,27 +24,26 @@
           <div id="topMenuDiv" class="">
             <ul class="noMargin">
               <li id="news"><a href="#">News</a></li>
-              <li><a href="#">Sport</a></li>
-              <li><a href="#">Weather</a></li>
-              <li><a href="#">IPlayer</a></li>
-              <li><a href="#">TV</a></li>
-              <li><a href="#">Radio</a></li>
-              <li><a href="#">More...</a></li>
+              <li id="spo"><a href="#">Sport</a></li>
+              <li id="wea"><a href="#">Weather</a></li>
+              <li id="ipl"><a href="#">IPlayer</a></li>
+              <li id="wht"><a href="#">TV</a></li>
+              <li id="wht"><a href="#">Radio</a></li>
+              <li id="wht"><a href="#">More...</a></li>
             </ul>
           </div>
           <div id="searchDiv" class="">
-            <input type="text" placeholder="Search" />
+            <input type="text" placeholder="Search" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search'" />
           </div>
         </div>
-
-
       </div>
       <div id="newsBar" class="clearFloats">
         <div class="fixedWidth">
           <div class="">
-            <p id="newsHeader">NEWS<span id="uk">UK</span></p>
+            <p id="newsHeader"><a href="#">NEWS</a><span id="uk">UK</span></p>
             <div id="rss" class="">
-              <p>RSS</p> <img src="rss.png" alt="RSS icon">
+              <a href="#">
+                <p>RSS</p> <img src="rss.png" alt="RSS icon"></a>
             </div>
           </div>
 
