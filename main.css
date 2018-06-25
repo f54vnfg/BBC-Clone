@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+/* * {
+  color: #505050;
+} */
+
 .group::after {
   content: "";
   display: table;
@@ -43,7 +47,7 @@ a {
 }
 
 #topBar {
-  background-color: rgba(122, 0, 0, .50);
+  background-color: rgba(122, 0, 0, .60);
   width: 100%;
   height: 40px;
   position: absolute;
@@ -182,7 +186,7 @@ a {
 #rss {
   float: right;
   margin-top: 45px;
-  padding-right: 28px;
+  padding-right: 8px;
 }
 
 #rss a {
@@ -200,7 +204,7 @@ a {
 }
 
 #rss p {
-  padding: 2px 2px 0;
+  padding: 1px 2px 0;
 }
 
 /* ------ News & RSS Bar - END ----- */
@@ -260,14 +264,36 @@ a {
 
 /* ----- Main Articles - START ----- */
 
-.mainWrapper {
-  width: 976px;
-  margin: 0 auto;
+.allArticlesWrapper ul li a {
+  color: #1f4f82
+}
+
+.allArticlesWrapper a:hover {
+  text-decoration: underline;
+}
+
+.mainWrapper h1 {
+  font-size: 2.461em;
+  color: #1f4f82;
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+.mainWrapper h3 {
+  font-size: 1.2em;
+  color: #1f4f82;
+  margin: 0;
+  padding-bottom: 5px;
 }
 
 #content {
   color: #535353;
-  font-size: 0.75em;
+  font-size: 0.7em;
+}
+
+#mainDate {
+  font-size: 1.1em;
+  padding: 12px 0 4px;
 }
 
 .allArticlesWrapper {
@@ -282,7 +308,17 @@ a {
 .articleBox, .floatRight {
   float: right;
   width: 304px;
-  padding-left: 10px;
+}
+
+.articleBox p {
+  margin: 0;
+  font-size: 1.3em;
+}
+
+.articleBox a {
+  font-size: 1.1em;
+  padding-top: 4px;
+  /* display: block; */
 }
 
 .asideFloat {
@@ -302,10 +338,55 @@ a {
 
 /* ================================= */
 
+/* ----- Small Articles - SART ----- */
+
+.articleSmallBox H3 {
+  padding: 5px 0;
+}
+
+.articleSmallBox p {
+  margin: 0;
+  font-size: 1.3em;
+  padding-bottom: 10px;
+}
+
+.articleSmallBox a {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.listPadding li {
+  padding-top: 7px;
+  list-style: none;
+}
+
+.listPadding ul {
+  padding-left: 0;
+}
+
+/* ------ Small Articles - END ------ */
+
+/* ================================= */
+
 /* ------- Also News - START ------- */
 
+.AlsoInTheNews h1 {
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #505050;
+}
+
+.AlsoInTheNews h3 a {
+  font-size: 1.2em;
+}
+
+.localNews a {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
 .AlsoInTheNews img {
-  width: 112px;
+  width: 120px;
 }
 
 .AlsoInTheNews img {
@@ -317,12 +398,7 @@ a {
 }
 
 .underline {
-  border-bottom: 1px solid grey;
-}
-
-.listPadding li {
-  padding-top: 7px;
-  list-style: none;
+  border-bottom: 1px solid #ddd;
 }
 
 /* -------- Also News - END -------- */
@@ -333,28 +409,34 @@ a {
 
 .localNewsDiv {
   width: 624px;
-  height: 192px;
+  height: 202px;
   background-color: #3c3e51;
   border: 10px solid #262835;
 }
 
 .localNewsSubDivs {
-  width: 290px;
+  width: 295px;
   color: white;
   padding: 0 10px;
+}
+
+
+
+.localArticles a {
+  display: block;
+  padding: 5px 0;
+  color: #ACC2D4;
+  font-weight: bold;
+}
+
+.localNewsSubDivs h2 a {
+  color: white;
 }
 
 .localNewsSubDivs h2 {
   border-bottom: 1px solid #262835;
   padding-bottom: 5px;
   margin: 12px 0 5px;
-}
-
-.localNewsSubDivs a {
-  display: block;
-  padding: 5px 0;
-  color: #ACC2D4;
-  font-weight: bold;
 }
 
 .localNewsSubDivs a:hover {
@@ -364,3 +446,43 @@ a {
 /* ------- Local News - END -------- */
 
 /* ================================= */
+
+/* ---------- Aside - START -------- */
+
+#topMargin {
+  margin-top: 43px;
+}
+
+.asideWrapper {
+  margin: 0 10px;
+}
+
+.asaideBox {
+  background-color: #eee;
+  padding: 1px 0;
+}
+
+.asaideBox h2 {
+  color: #505050;
+  margin: 0;
+  padding: 5px 0;
+}
+
+
+.asaideBox a {
+  padding: 5px 5px 5px 35px;
+  display: block;
+  background-image: url("live.png");
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 0px 6px;
+}
+
+/* .asaideBox img {
+  padding-right: 5px;
+  display:inline-block;
+} */
+
+/* ================================= */
+
+/* ----------- Aside - END --------- */

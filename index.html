@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <header class="group">
+   <header class="group">
     <div class="wrap">
       <div id="topBar" class="">
         <div class="fixedWidth">
@@ -36,7 +36,7 @@
             <input type="text" placeholder="Search" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search'" />
           </div>
         </div>
-      </div>
+      </div><!--
       <div id="newsBar" class="clearFloats">
         <div class="fixedWidth">
           <div class="">
@@ -65,27 +65,27 @@
               <li><a href="#">Entertainment & Arts</a></li>
             </ul>
           </div>
-        </div>
+        </div> -->
       </div>
   </header>
-
-  <div class="mainWrapper">
+<!--
+  <div class="fixedWidth">
     <main id="content" class="floatLeft">
 
       <div class="fixedWidth">
-        <p><strong>June 2018</strong> Last Updated at 06:15</p>
+        <p class="noMargin" id="mainDate"><strong>20 April 2014</strong> Last Updated at 06:12</p>
       </div>
 
       <div class="allArticlesWrapper ">
 
         <article class="floaters underline">
-          <h1>Labour hires Obama poll guru Axelrod</h1>
+          <h1><a href="#">Labour hires Obama poll guru Axelrod</a></h1>
           <div class="group">
             <img src="article1.jpg" alt="Picture of David Axelrod.">
             <div class="articleBox">
               <p>David Axelrod, the strategist who masterminded Barack Obama's presidential victories, will be a key adviser on Ed Miliband's 2015 general election campaign, the Labour Party says. Is Labour nervous?</p>
-              <p>Tories hire key Obama strategist</p>
-              <p>Labour donor: Critics hypocritical</p>
+              <a href="#">Tories hire key Obama strategist</a>
+              <a href="#">Labour donor: Critics hypocritical</a>
             </div>
           </div>
         </article>
@@ -95,11 +95,11 @@
           <div class="group">
             <img src="article2.jpg" alt="Picture of channel tunnel train station queue.">
             <div class="articleBox">
-              <h3>Channel Tunnel train delay 'chaos'</h3>
+              <h3><a>Channel Tunnel train delay 'chaos'</a></h3>
               <p>Hundreds of Channel Tunnel rail passengers face major delays after several technical problems led to the cancellation of services.</p>
-              <p>'Police at Eurostar check-in desk'</p>
-              <p>Delays 'beyond our control'</p>
-              <p>Roads: 'Busiest day of year so far'</p>
+              <a href="#">'Police at Eurostar check-in desk'</a>
+              <a href="#">Delays 'beyond our control'</a>
+              <a href="#">Roads: 'Busiest day of year so far'</a>
             </div>
           </div>
         </article>
@@ -109,10 +109,10 @@
           <div class="group">
             <img src="article3.jpg" alt="Stock photo class room depicting teacher teaching at a whiteboard to students.">
             <div class="articleBox">
-              <h3>Teachers' unions meet amid disputes</h3>
+              <h3><a href="#">Teachers' unions meet amid disputes</a></h3>
               <p>Calls for more action over pay and pensions are expected this weekend when the two biggest teachers' unions meet for their annual conferences.</p>
-              <p>Thousands of schools shut by strike</p>
-              <p>Why teachers are on strike</p>
+              <a href="#">Thousands of schools shut by strike</a>
+              <a href="#">Why teachers are on strike</a>
             </div>
           </div>
         </article>
@@ -120,16 +120,16 @@
         <div class="group underline">
           <div class="floatLeft">
 
-            <article class="underline">
-              <h3>Mother tells of lion park ordeal</h3>
+            <article class="underline articleSmallBox">
+              <h3><a href="#">Mother tells of lion park ordeal</a></h3>
               <p>A mother tells of her family's lucky escape after their car caught fire in the lion enclosure at Longleat Safari Park.</p>
             </article>
-            <article class="">
+            <article class="articleSmallBox">
               <h3>Quango chair resigns over bankruptcy</h3>
               <p>A businessman appointed by the prime minister to head a multibillion-pound quango steps down after it was revealed that he was bankrupt.</p>
             </article>
           </div>
-          <aside class="floatRight listPadding">
+          <aside class="floatRight listPadding articleSmallBox">
             <ul>
               <li><a>Teachers warn of CCTV intrusion</a></li>
               <li><a>Burnt boy in 'critical condition'</a></li>
@@ -144,67 +144,78 @@
 
 
         <section class="AlsoInTheNews group">
-          <h1 class="underline floaters noMargin">Also In the News</h1>
+          <h1 class="underline floaters">Also In the News</h1>
           <div class="floaters">
-
-
             <div class="floatLeft">
-              <div class="group">
-                <img src="horseMuseum.jpg" alt="">
-                <a>'War Horse farm' opens up museum</a>
+              <div class="group localNews">
+                <a href="#"><img src="horseMuseum.jpg" alt="">
+                'War Horse farm' opens up museum</a>
               </div>
 
-              <h3 class="noMargin">Local News</h3>
+              <h3><a href="#">Local News</a></h3>
 
             </div>
             <div class="floatRight">
-              <div class="group">
-                <img src="popCathedral.jpg" alt="">
-                <a>Crowds flock to 'pop-up cathedral'</a>
+              <div class="group localNews">
+                <a href="#"><img src="popCathedral.jpg" alt="">
+                Crowds flock to 'pop-up cathedral'</a>
               </div>
 
-              <h3 class="noMargin">Weather</h3>
+              <h3><a href="#">Weather</a></h3>
             </div>
-
-
           </div>
         </section>
         <section>
           <div class="localNewsDiv group">
             <div class="floatLeft localNewsSubDivs">
-              <h2>Northern Ireland</h2>
-              <a href="#">Man held over NI dissident murder</a>
-              <a href="#">Motorcyclists die in road accidents</a>
-              <h2>Wales &vert; Cymru</h2>
-              <a href="#">Hospital death inquest to be held</a>
-              <a href="#">Biker killed and two riders injured</a>
+              <h2><a class="heading" href="#">Northern Ireland</a></h2>
+              <div class="localArticles">
+                <a href="#">Man held over NI dissident murder</a>
+                <a href="#">Motorcyclists die in road accidents</a>
+              </div>
+
+              <h2><a href="#">Wales</a> &vert; <a href="#">Cymru</a></h2>
+              <div class="localArticles">
+                <a href="#">Hospital death inquest to be held</a>
+                <a href="#">Biker killed and two riders injured</a>
+              </div>
             </div>
             <div class="floatRight localNewsSubDivs">
-              <h2>Scotland &vert; Alba</h2>
-              <a href="#">Woman's death treated as suspicious</a>
-              <a href="#">Mobility scooter plunge OAP dies</a>
-              <h2>England</h2>
-              <a href="#">'Drink-drive' crash injures officer</a>
-              <a href="#">Five pulled from car before fire</a>
+              <h2><a href="#">Scotland</a> &vert; <a href="#">Alba</a></h2>
+              <div class="localArticles">
+                <a href="#">Woman's death treated as suspicious</a>
+                <a href="#">Mobility scooter plunge OAP dies</a>
+                </div>
+                <h2><a href="#">England</a></h2>
+                <div class="localArticles">
+                <a href="#">'Drink-drive' crash injures officer</a>
+                <a href="#">Five pulled from car before fire</a>
+              </div>
             </div>
           </div>
         </section>
       </div>
 
-
-
     </main>
 
     <aside class="asideFloat">
-      <section>
-        <div class="">
-          <h2>Watch/Listen</h2>
+      <section class="asaideBox" id="topMargin">
+        <div class="asideWrapper">
+          <div>
+            <h2>Watch/Listen</h2>
+          </div>
+          <div class="asaideBox underline">
+            <a href="#">BBC News Channel</a>
+          </div>
+          <div class="asaideBox">
+            <a href="#">Radio 5 live</a>
+          </div>
         </div>
       </section>
     </aside>
 
   </div>
-
+ -->
 
 
   <footer>
