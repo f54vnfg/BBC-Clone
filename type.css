@@ -1,0 +1,73 @@
+header * {
+  color: white
+}
+
+#liSelected a, .articleBox p, .articleSmallBox p, .AlsoInTheNews h2, .localNews a, #OurExperth2 #expertMoreInfo p {
+  color: #505050;
+}
+
+.articleBox a, .allArticlesWrapper h1 a, .articleSmallBox a, .AlsoInTheNews h3, .theExpert span a, .expertInfo ul li, .expertInfo ul li a, #expertMoreInfo h2 a, #expertMoreInfo p a  {
+  color: #1F4F82;
+}
+
+.localNewsDiv h2, .localNewsDiv h2 a {
+  color: #f0f0f0;
+}
+
+.localArticles a {
+  color: #ACC2D4;
+}
+
+#loginDiv a, #topMenuDiv a, #rss a, #mainDate, .articleBox p, .articleBox a, .articleSmallBox p, .articleSmallBox a, .localNews a, .localArticles a, .expertInfo ul li, .expertInfo ul li a {
+  font-size: 13px;
+}
+
+#topicMenu a {
+  font-size: 12px;
+}
+
+#newsHeader a {
+  font-size: 45px;
+}
+
+#uk {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.allArticlesWrapper h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.articleBox p, .articleSmallBox p {
+  line-height: 16px;
+}
+
+.articleBox h3 a, .articleSmallBox h3 a, .AlsoInTheNews h3, .localNewsDiv h2, .localNewsDiv h2 a, #exOrange, #expertMoreInfo h2, #expertMoreInfo h2 a {
+  font-size: 16px;
+}
+
+.AlsoInTheNews h2, #OurExperth2, .theExpert span a {
+  font-size: 24px;
+}
+
+.theExpert span a, #expertMoreInfo h2 a, #expertMoreInfo p a {
+  font-weight: bold;
+}
+
+#expertMoreInfo h2{
+  font-weight:normal;
+}
+
+#exOrange {
+  color: #D2700E;
+}
+
+.expertInfo ul li a {
+font-weight: 700;
+}
+
+#expertMoreInfo p, #expertMoreInfo p a {
+  font-size: 18px;
+}
