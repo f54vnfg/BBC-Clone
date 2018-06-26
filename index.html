@@ -10,78 +10,86 @@
 </head>
 
 <body>
-   <header class="group">
-    <div class="wrap">
-      <div id="topBar" class="">
-        <div class="fixedWidth">
-          <div id="logoDiv" class="borderRight">
-            <a href="#">
-            <img src="bbc.png" alt="BBC logo" height="24px"></a>
-          </div>
-          <div id="loginDiv" class="borderRight">
-            <a href="#"><img src="login-icon.png" alt="Login Icon" height="24px"> Sgin In</a>
-          </div>
-          <div id="topMenuDiv" class="">
-            <ul class="noMargin">
-              <li id="news"><a href="#">News</a></li>
-              <li id="spo"><a href="#">Sport</a></li>
-              <li id="wea"><a href="#">Weather</a></li>
-              <li id="ipl"><a href="#">IPlayer</a></li>
-              <li id="wht"><a href="#">TV</a></li>
-              <li id="wht"><a href="#">Radio</a></li>
-              <li id="wht"><a href="#">More...</a></li>
-            </ul>
-          </div>
-          <div id="searchDiv" class="">
-            <input type="text" placeholder="Search" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search'" />
-          </div>
-        </div>
-      </div>
-      <div id="newsBar" class="clearFloats">
-        <div class="fixedWidth">
-          <div class="">
-            <p id="newsHeader"><a href="#">NEWS</a><span id="uk">UK</span></p>
-            <div id="rss" class="">
-              <a href="#">
-                <p>RSS</p> <img src="rss.png" alt="RSS icon"></a>
-            </div>
-          </div>
+  <header class="group">
+    <div class="wrap" id="topBar" class="">
+      <div class="fixedWidth">
 
-          <div id="topicMenu">
-            <ul class="">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">World</a></li>
-              <li id="liSelected"><a href="#">UK</a></li>
-              <li><a href="#">England</a></li>
-              <li><a href="#">N. Ireland</a></li>
-              <li><a href="#">Scotland</a></li>
-              <li><a href="#">Wales</a></li>
-              <li><a href="#">Busienss</a></li>
-              <li><a href="#">Politics</a></li>
-              <li><a href="#">Health</a></li>
-              <li><a href="#">Education</a></li>
-              <li><a href="#">Sci/Environment</a></li>
-              <li><a href="#">Technology</a></li>
-              <li><a href="#">Entertainment & Arts</a></li>
-            </ul>
+        <div id="logoDiv" class="borderRight">
+          <a href="#">
+            <img src="img/bbc.png" alt="BBC logo" height="24px"></a>
+        </div>
+
+        <div id="loginDiv" class="borderRight">
+          <a href="#"><img src="img/login-icon.png" alt="Login Icon" height="24px"> Sgin In</a>
+        </div>
+
+        <div id="topMenuDiv" class="">
+          <ul class="noMargin">
+            <li id="news"><a href="#">News</a></li>
+            <li id="spo"><a href="#">Sport</a></li>
+            <li id="wea"><a href="#">Weather</a></li>
+            <li id="ipl"><a href="#">IPlayer</a></li>
+            <li id="wht"><a href="#">TV</a></li>
+            <li id="wht"><a href="#">Radio</a></li>
+            <li id="wht"><a href="#">More...</a></li>
+          </ul>
+        </div>
+
+        <div id="searchDiv" class="">
+          <input type="text" placeholder="Search" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search'" />
+        </div>
+
+      </div>
+    </div>
+
+    <div id="newsBar" class="">
+
+      <div class="fixedWidth">
+        <div>
+          <div id="newsHeader">
+            <a href="#">NEWS</a>
+            <span id="uk">UK</span>
+          </div>
+          <div id="rss" class="">
+            <a href="#">RSS</a>
           </div>
         </div>
+
+        <div id="topicMenu">
+          <ul class="">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">World</a></li>
+            <li id="liSelected"><a href="#">UK</a></li>
+            <li><a href="#">England</a></li>
+            <li><a href="#">N. Ireland</a></li>
+            <li><a href="#">Scotland</a></li>
+            <li><a href="#">Wales</a></li>
+            <li><a href="#">Busienss</a></li>
+            <li><a href="#">Politics</a></li>
+            <li><a href="#">Health</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Sci/Environment</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Entertainment & Arts</a></li>
+          </ul>
+        </div>
       </div>
+    </div>
   </header>
 
   <div class="fixedWidth">
     <main id="content" class="floatLeft">
 
-      <div class="fixedWidth">
+      <div class="">
         <p class="noMargin" id="mainDate"><strong>20 April 2014</strong> Last Updated at 06:12</p>
       </div>
 
       <div class="allArticlesWrapper ">
 
         <article class="floaters underline">
-          <h1><a href="#">Labour hires Obama poll guru Axelrod</a></h1>
+          <h1><a href="#" class="mainBigHeading">Labour hires Obama poll guru Axelrod</a></h1>
           <div class="group">
-            <img src="article1.jpg" alt="Picture of David Axelrod.">
+            <img src="img/article1.jpg" alt="Picture of David Axelrod.">
             <div class="articleBox">
               <p>David Axelrod, the strategist who masterminded Barack Obama's presidential victories, will be a key adviser on Ed Miliband's 2015 general election campaign, the Labour Party says. Is Labour nervous?</p>
               <a href="#">Tories hire key Obama strategist</a>
@@ -93,7 +101,7 @@
         <article class="floaters underline">
 
           <div class="group">
-            <img src="article2.jpg" alt="Picture of channel tunnel train station queue.">
+            <img src="img/article2.jpg" alt="Picture of channel tunnel train station queue.">
             <div class="articleBox">
               <h3><a>Channel Tunnel train delay 'chaos'</a></h3>
               <p>Hundreds of Channel Tunnel rail passengers face major delays after several technical problems led to the cancellation of services.</p>
@@ -107,7 +115,7 @@
         <article class="floaters underline">
 
           <div class="group">
-            <img src="article3.jpg" alt="Stock photo class room depicting teacher teaching at a whiteboard to students.">
+            <img src="img/article3.jpg" alt="Stock photo class room depicting teacher teaching at a whiteboard to students.">
             <div class="articleBox">
               <h3><a href="#">Teachers' unions meet amid disputes</a></h3>
               <p>Calls for more action over pay and pensions are expected this weekend when the two biggest teachers' unions meet for their annual conferences.</p>
@@ -125,7 +133,7 @@
               <p>A mother tells of her family's lucky escape after their car caught fire in the lion enclosure at Longleat Safari Park.</p>
             </article>
             <article class="articleSmallBox">
-              <h3>Quango chair resigns over bankruptcy</h3>
+              <h3><a href="#">Quango chair resigns over bankruptcy</a></h3>
               <p>A businessman appointed by the prime minister to head a multibillion-pound quango steps down after it was revealed that he was bankrupt.</p>
             </article>
           </div>
@@ -148,7 +156,7 @@
           <div class="floaters">
             <div class="floatLeft">
               <div class="group localNews">
-                <a href="#"><img src="horseMuseum.jpg" alt="">
+                <a href="#"><img src="img/horseMuseum.jpg" alt="">
                 'War Horse farm' opens up museum</a>
               </div>
 
@@ -157,7 +165,7 @@
             </div>
             <div class="floatRight">
               <div class="group localNews">
-                <a href="#"><img src="popCathedral.jpg" alt="">
+                <a href="#"><img src="img/popCathedral.jpg" alt="">
                 Crowds flock to 'pop-up cathedral'</a>
               </div>
 

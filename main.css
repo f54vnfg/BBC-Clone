@@ -3,9 +3,16 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* {
-  color: #505050;
-} */
+
+* {
+  color: #1f4f82;
+  font-size: 13px;
+  margin: 0;
+}
+
+.clearFloats {
+  clear: both;
+}
 
 .group::after {
   content: "";
@@ -14,7 +21,6 @@
 }
 
 body {
-  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -27,24 +33,18 @@ header {
   margin: 0 auto;
 }
 
-.clearFloats {
-  clear: both;
-}
-
 a {
   text-decoration: none;
 }
 
-
 /* ---- Top Navigation - START ----- */
-
 
 .borderRight {
   border-right: 1px solid #990000;
 }
 
 #topBar {
-  background-color: rgba(122, 0, 0, .60);
+  background-color: rgba(80, 80, 80, .30);
   width: 100%;
   height: 40px;
   position: absolute;
@@ -63,7 +63,7 @@ a {
 }
 
 #loginDiv {
-  padding: 5px 30px 11px;
+  padding: 5px 52px 11px;
 }
 
 #loginDiv a {
@@ -86,7 +86,7 @@ a {
 
 #topMenuDiv li {
   border-right: 1px solid #990000;
-  padding: 10px 11px 10px;
+  padding: 10px 13px 10px;
   */ display: inline-block;
   list-style: none;
   font-weight: bold;
@@ -133,7 +133,7 @@ a {
   height: 22px;
   border: none;
   padding: 0 10px;
-  background-image: url("icon-search.svg");
+  background-image: url("img/icon-search.svg");
   background-size: 15px;
   background-repeat: no-repeat;
   background-position: right center;
@@ -145,89 +145,82 @@ a {
 
 /* ---- News & RSS Bar - START ---- */
 
+#newsBar * {
+  color: white;
+}
+
 #newsBar {
   background-color: #990000;
-  background-image: url("redPlanet.png");
+  background-image: url("img/redPlanet.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #newsBar {
-  padding-top: 30px;
-  width: 100%;
-  height: 132px;
-}
-
-#newsBar p {
-  padding-top: 15px;
-  padding-left: 5px;
-  margin: 0;
-  float: left;
-}
-
-#newsHeader {
-  font-size: 3rem;
+  padding-top: 47.5px;
+  height: 128px;
 }
 
 #newsHeader a {
-  color: white;
+  float: left;
+  font-size: 3.2rem;
+  padding-left: 8px;
 }
 
 #uk {
-  font-size: 0.7rem;
+  display: inline-block;
   padding-left: 15px;
-}
-
-#rss {
-  float: right;
-  margin-top: 45px;
-  padding-right: 8px;
-  font-size: 0.8rrem;
+  font-size: 2rem;
+  margin-top: 13px;
 }
 
 #rss a {
-  color: white;
-  font-size: 0.9rem;
+  font-weight: bold;
 }
 
-#rss p:hover {
-  color: white;
+#rss a:hover {
   text-decoration: underline;
 }
 
-#rss img {
-  height: 15px;
-}
-
-#rss p {
-  padding: 1px 2px 0;
+#rss {
+  margin-top: -10px;
+  margin-right: 10px;
+  float: right;
+  padding: 0 20px 0 0;
+  background-image: url("img/rss.png");
+  background-repeat: no-repeat;
+  background-position: 30px 0px;
+  background-size: 15px;
 }
 
 /* ------ News & RSS Bar - END ----- */
 
 /* ------- Topic Bar - START ------- */
 
+#topicMenu a {
+  font-size: 11.9px;
+}
+
 #topicMenu li {
-  border-right: 1px solid #990000;
+  border-right: 1px solid #5b2d2f;
 }
 
 #topicMenu {
-  padding-top: 65px;
+  padding-top: 14px;
 }
 
 #topicMenu ul {
   background-color: #3E0C0D;
   padding: 5px 0 0 5px;
-  height: 20px;
+  height: 23px;
   width: 976px;
   padding: 0;
 }
 
 #topicMenu li {
   list-style: none;
-  font-size: 0.7rem;
   font-weight: bold;
-  padding: 4px 8px 3px;
+  padding: 4px 6px;
   float: left;
 }
 
@@ -245,7 +238,6 @@ a {
 
 #liSelected {
   background-color: #EDEDED;
-  color: #666666;
 }
 
 #liSelected a {
@@ -265,14 +257,14 @@ a {
 }
 
 .mainWrapper h1 {
-  font-size: 2.461rem;
+  /* font-size: 2.461rem; */
   color: #1f4f82;
   margin: 0;
   padding-bottom: 8px;
 }
 
 .mainWrapper h3 {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   color: #1f4f82;
   margin: 0;
   padding-bottom: 5px;
@@ -280,11 +272,11 @@ a {
 
 #content {
   color: #535353;
-  font-size: 0.7rem;
+  /* font-size: 0.7rem; */
 }
 
 #mainDate {
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
   padding: 12px 0 4px;
 }
 
@@ -304,11 +296,11 @@ a {
 
 .articleBox p {
   margin: 0;
-  font-size: 1.3rem;
+  /* font-size: 1.3rem; */
 }
 
 .articleBox a {
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
   padding-top: 4px;
   /* display: block; */
 }
@@ -335,14 +327,14 @@ a {
 }
 
 .articleSmallBox p {
-  margin: 0;
-  font-size: 1.3rem;
   padding-bottom: 10px;
+  margin: 0;
+  /* font-size: 1rem; */
 }
 
 .articleSmallBox a {
   font-weight: bold;
-  font-size: 1.2rem;
+  /* font-size: 1rem; */
 }
 
 .listPadding li {
@@ -361,17 +353,17 @@ a {
 /* ------- Also News - START ------- */
 
 .AlsoInTheNews h1 {
-  font-size: 2.2rem;
+  /* font-size: 2.2rem; */
   font-weight: bold;
   color: #505050;
 }
 
 .AlsoInTheNews h3 a {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
 }
 
 .localNews a {
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
   font-weight: bold;
 }
 
@@ -407,8 +399,6 @@ a {
   color: white;
   padding: 0 10px;
 }
-
-
 
 .localArticles a {
   display: block;
@@ -454,11 +444,10 @@ a {
   padding: 5px 0;
 }
 
-
 .asaideBox a {
   padding: 5px 5px 5px 35px;
   display: block;
-  background-image: url("live.png");
+  background-image: url("img/live.png");
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: 0px 6px;
