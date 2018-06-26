@@ -22,7 +22,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .fixedWidth {
   width: 976px;
   margin: 0 auto;
@@ -132,7 +131,7 @@ a {
   font-weight: bold;
 }
 
-/* ----- Top Navigation - END ----- */
+/* ----- Top Navigation - ENDS ----- */
 
 /* ---- News & RSS Bar - START ---- */
 
@@ -178,7 +177,7 @@ a {
   background-size: 15px;
 }
 
-/* ------ News & RSS Bar - END ----- */
+/* ------ News & RSS Bar - ENDS ----- */
 
 /* ------- Topic Bar - START ------- */
 
@@ -205,7 +204,6 @@ a {
   float: left;
 }
 
-
 #topicMenu a:hover {
   text-decoration: underline;
 }
@@ -218,10 +216,9 @@ a {
   background-color: #EDEDED;
 }
 
-/* -------- Topic Bar - END -------- */
+/* -------- Topic Bar - ENDS -------- */
 
 /* ----- Main Articles - START ----- */
-
 
 .allArticlesWrapper a:hover {
   text-decoration: underline;
@@ -232,11 +229,9 @@ a {
   padding-bottom: 8px;
 }
 
-
 .articleBox h3 a {
   padding-bottom: 5px;
 }
-
 
 .articleBox p {
   font-weight: 400;
@@ -263,7 +258,6 @@ a {
 
 .articleBox p {
   margin: 0;
-
 }
 
 .articleBox a {
@@ -284,7 +278,7 @@ a {
   margin: 0;
 }
 
-/* ------ Main Articles - END ------ */
+/* ------ Main Articles - ENDS ------ */
 
 /* ----- Small Articles - SART ----- */
 
@@ -314,7 +308,7 @@ a {
   padding-left: 0;
 }
 
-/* ------ Small Articles - END ------ */
+/* ------ Small Articles - ENDS ------ */
 
 /* ================================= */
 
@@ -324,8 +318,7 @@ a {
   font-weight: bold;
 }
 
-.AlsoInTheNews h3 a {
-}
+.AlsoInTheNews h3 a {}
 
 .localNews a {
   font-weight: bold;
@@ -347,7 +340,7 @@ a {
   border-bottom: 1px solid #ddd;
 }
 
-/* -------- Also News - END -------- */
+/* -------- Also News - ENDS -------- */
 
 /* ------ Local News - START ------- */
 
@@ -379,7 +372,51 @@ a {
   text-decoration: underline;
 }
 
-/* ------- Local News - END -------- */
+/* ------- Local News - ENDS -------- */
+/* ------- Our Expert - Start -------- */
+.someTopMargin {
+  padding: 14px 0 8px;
+  margin-bottom: 8px;
+}
+
+.theExpert img, .expertInfo {
+  float: left;
+}
+
+.floatitLeft {
+  float: left;
+}
+
+.floatitRight {
+  float: right;
+}
+
+.expertInfo ul {
+  padding: 0;
+}
+.theExpert img{
+  padding-right: 10px;
+}
+
+.expertInfo ul li {
+  list-style-type: none;
+}
+
+.expertInfo ul li:last-child{
+  padding-left: 10px;
+
+}
+
+.expertInfo ul li:first-child a{
+  border-right: solid 1px #cccccc;
+  padding-right: 10px;
+}
+/* ------- Our Expert - ENDS -------- */
+/* ------- Expert Info - START ------- */
+#expertMoreInfo {
+  background-color: #ededed;
+  padding: 8px;
+}
 
 /* ---------- Aside - START -------- */
 
@@ -415,4 +452,4 @@ a {
   display:inline-block;
 } */
 
-/* ----------- Aside - END --------- */
+/* ----------- Aside - ENDS --------- */
