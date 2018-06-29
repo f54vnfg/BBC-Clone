@@ -2,11 +2,15 @@ header * {
   color: white
 }
 
-#liSelected a, .articleBox p, .articleSmallBox p, .AlsoInTheNews h2, .localNews a, #OurExperth2 #expertMoreInfo p {
+#liSelected a, .articleBox p, .articleSmallBox p, .AlsoInTheNews h2, .localNews a, #OurExperth2 #expertMoreInfo p, .asideMainHeader, .featNana a p, .mostPop h3,.mostPop li p {
   color: #505050;
 }
 
-.articleBox a, .allArticlesWrapper h1 a, .articleSmallBox a, .AlsoInTheNews h3, .theExpert span a, .expertInfo ul li, .expertInfo ul li a, #expertMoreInfo h2 a, #expertMoreInfo p a  {
+.mostPop li p {
+  color: #a9a9a9
+}
+
+.articleBox a, .allArticlesWrapper h1 a, .articleSmallBox a, .AlsoInTheNews h3, .theExpert span a, .expertInfo ul li, .expertInfo ul li a, #expertMoreInfo h2 a, #expertMoreInfo p a, .liveImage a, .featNana a h3, .mostPop li a {
   color: #1F4F82;
 }
 
@@ -18,7 +22,14 @@ header * {
   color: #ACC2D4;
 }
 
-#loginDiv a, #topMenuDiv a, #rss a, #mainDate, .articleBox p, .articleBox a, .articleSmallBox p, .articleSmallBox a, .localNews a, .localArticles a, .expertInfo ul li, .expertInfo ul li a {
+.programmes h4 {
+  color: #A9C0D3;
+}
+.programmes P {
+  color: #eee;
+}
+
+#loginDiv a, #topMenuDiv a, #rss a, #mainDate, .articleBox p, .articleBox a, .articleSmallBox p, .articleSmallBox a, .localNews a, .localArticles a, .expertInfo ul li, .expertInfo ul li a, .featNana a p, .programmes P {
   font-size: 13px;
 }
 
@@ -37,6 +48,14 @@ header * {
 
 .allArticlesWrapper h1 {
   font-size: 32px;
+}
+
+.mostPop li p {
+  font-weight: 900;
+}
+
+
+.allArticlesWrapper h1, .liveImage a, .asideMainHeader, .mostPop h3, .mostPop li a {
   font-weight: 700;
 }
 
@@ -44,7 +63,11 @@ header * {
   line-height: 16px;
 }
 
-.articleBox h3 a, .articleSmallBox h3 a, .AlsoInTheNews h3, .localNewsDiv h2, .localNewsDiv h2 a, #exOrange, #expertMoreInfo h2, #expertMoreInfo h2 a {
+.programmes P {
+  font-weight: 400;
+}
+
+.articleBox h3 a, .articleSmallBox h3 a, .AlsoInTheNews h3, .localNewsDiv h2, .localNewsDiv h2 a, #exOrange, #expertMoreInfo h2, #expertMoreInfo h2 a, .featNana a h3, .mostPop h3 {
   font-size: 16px;
 }
 
@@ -56,18 +79,22 @@ header * {
   font-weight: bold;
 }
 
-#expertMoreInfo h2{
-  font-weight:normal;
+#expertMoreInfo h2 {
+  font-weight: normal;
 }
 
 #exOrange {
   color: #D2700E;
 }
 
-.expertInfo ul li a {
-font-weight: 700;
+.expertInfo ul li a, .programmes h4 {
+  font-weight: 700;
 }
 
 #expertMoreInfo p, #expertMoreInfo p a {
   font-size: 18px;
+}
+
+.asideVideoBox, .liveImage a, .mostPop li a, .mostPop li p, .programmes h4 {
+  font-size: 13px;
 }
