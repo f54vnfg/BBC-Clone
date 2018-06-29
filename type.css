@@ -4,29 +4,27 @@ a {
   text-decoration: none;
 }
 
-.listStyleNone li p:hover {
-  color: #D2700E;
+li {
+  list-style-type: none;
 }
 
 .liveImage a:hover, .asideVideoBox li a:hover, #rss a:hover, #topicMenu a:hover, .allArticlesWrapper a:hover, .localNewsSubDivs a:hover, .featNana a h3:hover, .mostPop li a:hover, .programmes h4:hover {
   text-decoration: underline;
 }
 
-.listStyleNone, .featNana li, .expertInfo ul li, .videoBoxes li {
-  list-style-type: none;
-}
+
 
 /* ------------ Font-Colors ----------- */
 
-header * {
-  color: white
+header *, #mainReport h3 a, #mainReport p {
+  color: white;
 }
 
 .articleBox a, .allArticlesWrapper h1 a, .articleSmallBox a, .AlsoInTheNews h3, .theExpert span a, .expertInfo ul li, .expertInfo ul li a, #expertMoreInfo h2 a, #expertMoreInfo p a, .liveImage a, .featNana a h3, .mostPop li a {
   color: #1F4F82;
 }
 
-#liSelected a, .articleBox p, .articleSmallBox p, .AlsoInTheNews h2, .localNews a, #OurExperth2 #expertMoreInfo p, .asideMainHeader, .featNana a p, .mostPop h3, .mostPop li p {
+#liSelected a, .articleBox p, .articleSmallBox p, .AlsoInTheNews h2, .localNews a, #OurExperth2 #expertMoreInfo p, .asideMainHeader, .featNana a p, .mostPop h3, .mostPop li p, .subArticleMoreUK * {
   color: #505050;
 }
 
@@ -48,6 +46,10 @@ header * {
 
 .programmes P {
   color: #eee;
+}
+
+.listStyleNone li p:hover {
+  color: #D2700E;
 }
 
 #exOrange {
@@ -77,15 +79,15 @@ header * {
   font-size: 18px;
 }
 
-.articleBox h3 a, .articleSmallBox h3 a, .AlsoInTheNews h3, .localNewsDiv h2, .localNewsDiv h2 a, #exOrange, #expertMoreInfo h2, #expertMoreInfo h2 a, .featNana a h3, .mostPop h3 {
+.articleBox h3 a, .articleSmallBox h3 a, .AlsoInTheNews h3, .localNewsDiv h2, .localNewsDiv h2 a, #exOrange, #expertMoreInfo h2, #expertMoreInfo h2 a, .featNana a h3, .mostPop h3, .subArticleMoreUK h3 a {
   font-size: 16px;
 }
 
-.asideVideoBox, .liveImage a, .mostPop li a, .mostPop li p, .programmes h4 {
+#loginDiv a, #topMenuDiv a, #rss a, #mainDate, .articleBox p, .articleBox a, .articleSmallBox p, .articleSmallBox a, .localNews a, .localArticles a, .expertInfo ul li, .expertInfo ul li a, .featNana a p, .programmes P, .subArticleMoreUK ul * {
   font-size: 13px;
 }
 
-#loginDiv a, #topMenuDiv a, #rss a, #mainDate, .articleBox p, .articleBox a, .articleSmallBox p, .articleSmallBox a, .localNews a, .localArticles a, .expertInfo ul li, .expertInfo ul li a, .featNana a p, .programmes P {
+.asideVideoBox, .liveImage a, .mostPop li a, .mostPop li p, .programmes h4 {
   font-size: 13px;
 }
 
@@ -103,7 +105,7 @@ header * {
   font-weight: 900;
 }
 
-.expertInfo ul li a, .programmes h4, .allArticlesWrapper h1, .liveImage a, .asideMainHeader, .mostPop h3, .mostPop li a {
+.expertInfo ul li a, .programmes h4, .allArticlesWrapper h1, .liveImage a, .asideMainHeader, .mostPop h3, .mostPop li a, .subArticleMoreUK h3 a {
   font-weight: 700;
 }
 

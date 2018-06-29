@@ -369,6 +369,64 @@ body {
   padding: 8px;
 }
 
+/* ------- Expert Info - ENDS ------- */
+
+/* ----- Special Reports - START ----- */
+
+#specialReports img {
+  /* display: block; */
+  margin-right: solid 1px white;
+}
+
+#mainReport, #moreReports {
+  width: 320px;
+  padding: 10px 0 0 14px;
+}
+
+#mainReport {
+  background-color: #D2700E;
+  height: 110px;
+}
+
+#mainReport p {
+  margin: 4px 8px 8px 0;
+}
+
+#moreReports {
+  border-top: solid 1px white;
+  background-color: #ededed;
+  height: 60px;
+}
+
+#moreReports a {
+  display: block;
+  margin: 5px 0;
+}
+
+/* ----- Special Reports - ENDS ------ */
+
+/* -------- MoreFromUK - START ------- */
+
+.subArticleMoreUK {
+  width: 144px;
+  margin-right: 16px;
+}
+
+.subArticleMoreUK h3 {
+  padding: 9px 0 11px;
+  margin-bottom: 6px;
+}
+
+.subArticleMoreUK ul {
+  padding: 5px 0 0 0;
+}
+
+.subArticleMoreUK ul li h4 {
+  padding: 5px 0;
+}
+
+/* -------  MoreFromUK - ENDS -------  */
+
 /* ---------- Aside - START -------- */
 
 .topMargin {
