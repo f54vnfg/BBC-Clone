@@ -295,6 +295,10 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
+.overline {
+  border-top: 1px solid #ddd;
+}
+
 /* -------- Also News - ENDS -------- */
 
 /* ------ Local News - START ------- */
@@ -427,7 +431,83 @@ body {
 
 /* -------  MoreFromUK - ENDS -------  */
 
-/* ---------- Aside - START -------- */
+/* -------  FROM BBC - STARTS -------  */
+
+#bbcTravel {
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+#bbcTravel h2 {
+  padding: 8px 0;
+  margin-bottom: 8px;
+}
+
+#bbcTravel img {
+  width: 304px;
+  height: 170px;
+  position: relative;
+}
+
+#bbcTravel ul {
+  padding: 0;
+}
+
+.blackBackground {
+  background-color: rgba(0, 0, 0, .60);
+  width: 304px;
+  height: 50px;
+  position: absolute;
+  margin-top: -54px;
+}
+
+.blackBackground a {
+  padding-top: 5px;
+}
+
+.blackBackground a, .blackBackground span {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.displayAsBlock {
+  display: inline-block;
+}
+
+/* --------  FROM BBC - ENDS --------  */
+
+/* -------  Democracy Live - STARTS --------  */
+
+#demoLive h2 {
+  padding: 7px 0;
+  margin-bottom: 7px;
+}
+
+.demoLiveBox {
+  margin-left: 15px;
+  width: 465px;
+  height: 90px;
+}
+
+/* ---------  Democracy Live - ENDS --------  */
+
+/* ---------  Find A Rep - START --------  */
+
+#findRep {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+#findRep h2 {
+  padding: 12px 0 8px;
+}
+
+#findRep input {
+  width: 100%;
+}
+
+/* ---------  Find A Rep - ENDS --------  */
+
+/* ---------- Aside - START ---------- */
 
 .topMargin {
   margin-top: 16px;

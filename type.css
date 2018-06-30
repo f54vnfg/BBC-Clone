@@ -12,11 +12,9 @@ li {
   text-decoration: underline;
 }
 
-
-
 /* ------------ Font-Colors ----------- */
 
-header *, #mainReport h3 a, #mainReport p {
+header *, #mainReport h3 a, #mainReport p, .blackBackground a, .blackBackground span {
   color: white;
 }
 
@@ -32,20 +30,12 @@ header *, #mainReport h3 a, #mainReport p {
   color: #A9A9A9
 }
 
-.programmes h4 {
+.programmes h4, .localArticles a {
   color: #A9C0D3;
 }
 
-.localArticles a {
-  color: #ACC2D4;
-}
-
-.localNewsDiv h2, .localNewsDiv h2 a {
+.localNewsDiv h2, .localNewsDiv h2 a, .programmes P {
   color: #f0f0f0;
-}
-
-.programmes P {
-  color: #eee;
 }
 
 .listStyleNone li p:hover {
@@ -79,7 +69,7 @@ header *, #mainReport h3 a, #mainReport p {
   font-size: 18px;
 }
 
-.articleBox h3 a, .articleSmallBox h3 a, .AlsoInTheNews h3, .localNewsDiv h2, .localNewsDiv h2 a, #exOrange, #expertMoreInfo h2, #expertMoreInfo h2 a, .featNana a h3, .mostPop h3, .subArticleMoreUK h3 a {
+.articleBox h3 a, .articleSmallBox h3 a, .AlsoInTheNews h3, .localNewsDiv h2, .localNewsDiv h2 a, #exOrange, #expertMoreInfo h2, #expertMoreInfo h2 a, .featNana a h3, .mostPop h3, .subArticleMoreUK h3 a, .blackBackground a, #findRep h2 {
   font-size: 16px;
 }
 
@@ -87,7 +77,7 @@ header *, #mainReport h3 a, #mainReport p {
   font-size: 13px;
 }
 
-.asideVideoBox, .liveImage a, .mostPop li a, .mostPop li p, .programmes h4 {
+.asideVideoBox, .liveImage a, .mostPop li a, .mostPop li p, .programmes h4, .blackBackground span {
   font-size: 13px;
 }
 
@@ -105,11 +95,11 @@ header *, #mainReport h3 a, #mainReport p {
   font-weight: 900;
 }
 
-.expertInfo ul li a, .programmes h4, .allArticlesWrapper h1, .liveImage a, .asideMainHeader, .mostPop h3, .mostPop li a, .subArticleMoreUK h3 a {
+.expertInfo ul li a, .programmes h4, .allArticlesWrapper h1, .liveImage a, .asideMainHeader, .mostPop h3, .mostPop li a, .subArticleMoreUK h3 a, .blackBackground a, #findRep h2 {
   font-weight: 700;
 }
 
-.programmes P, .articleBox p {
+.programmes P, .articleBox p, .blackBackground span {
   font-weight: 400;
 }
 
