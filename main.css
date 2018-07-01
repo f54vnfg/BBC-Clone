@@ -716,29 +716,52 @@ body {
 
 /* --------- Footer - Start --------- */
 
+.underlineBold {
+  border-bottom: 1px solid black;
+}
+
 .footerSerices ul, .aboutWrap ul, .bbcFooter ul {
   padding: 0;
 }
 
-.footerSerices li a {
-  float: left;
-  padding: 20px 60px 20px 0;
+.footerSerices {
+  width: 640px;
 }
 
-.bbcFooter {
-  /* margin-bottom: 50px; */
+.aboutWrap h2 {
+  padding-bottom: 20px;
+}
+
+.footerSerices li {
+  float: left;
+  padding: 20px 70px 20px 0;
+}
+
+.footerSerices li:last-child {
+  padding-right: 0;
+}
+
+.bbcFooter img{
+margin-top: 15px;
+}
+
+.bbcFooter ul {
+  padding: 16px 16px 13px 0;
 }
 
 .bbcFooter ul li {
   float: left;
-  padding-right: 20px;
+  /* padding-right: 27px; */
+  margin-right: 60px;
   width: 100px;
 }
 
-/* #copyrightStuff {
-  display: block;
-  width: 300px;
-  height: 30px;
-} */
+#copyrightStuff {
+padding-top: 20px;
+}
+
+.bbcFooter {
+  margin-bottom: 20px;
+}
 
 /* --------- Footer - Start --------- */

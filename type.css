@@ -18,12 +18,21 @@ header *, #mainReport h3 a, #mainReport p, .blackBackground a, .blackBackground 
   color: white;
 }
 
-.articleBox a, .allArticlesWrapper h1 a, .articleSmallBox a, .AlsoInTheNews h3, .theExpert span a, .expertInfo ul li, .expertInfo ul li a, #expertMoreInfo h2 a, #expertMoreInfo p a, .liveImage a, .featNana a h3, .mostPop li a {
+.articleBox a, .allArticlesWrapper h1 a, .articleSmallBox a, .AlsoInTheNews h3, .theExpert span a, .expertInfo ul li, .expertInfo ul li a, #expertMoreInfo h2 a, #expertMoreInfo p a {
+ color: #1F4F82;
+}
+
+
+ .liveImage a, .featNana a h3, .mostPop li a, .footerWrap h2 a, .aboutWrap h2, .footerSerices ul li a, .aboutWrap ul li a {
   color: #1F4F82;
 }
 
-#liSelected a, .articleBox p, .articleSmallBox p, .AlsoInTheNews h2, .localNews a, #OurExperth2 #expertMoreInfo p, .asideMainHeader, .featNana a p, .mostPop h3, .mostPop li p, .subArticleMoreUK * {
+#liSelected a, .articleBox p, .articleSmallBox p, .AlsoInTheNews h2, .localNews a, #OurExperth2 #expertMoreInfo p, .asideMainHeader, .featNana a p, .mostPop h3, .mostPop li p, .subArticleMoreUK *, .footerSerices h2 {
   color: #505050;
+}
+
+.bbcFooter ul li a, #copyrightStuff *  {
+  color: #4c4c4c;
 }
 
 .mostPop li p {
@@ -61,7 +70,7 @@ header *, #mainReport h3 a, #mainReport p, .blackBackground a, .blackBackground 
   line-height: 40px;
 }
 
-.AlsoInTheNews h2, #OurExperth2, .theExpert span a {
+.AlsoInTheNews h2, #OurExperth2, .theExpert span a, .footerWrap h2, .aboutWrap h2, .footerSerices h2 {
   font-size: 24px;
 }
 
@@ -77,11 +86,16 @@ header *, #mainReport h3 a, #mainReport p, .blackBackground a, .blackBackground 
   font-size: 13px;
 }
 
-.asideVideoBox, .liveImage a, .mostPop li a, .mostPop li p, .programmes h4, .blackBackground span {
+.asideVideoBox, .liveImage a, .mostPop li a, .mostPop li p, .programmes h4, .blackBackground span. .footerSerices li a {
   font-size: 13px;
 }
 
-#topicMenu a {
+.aboutWrap li a, .footerSerices ul li a {
+  font-size: 13px;
+}
+
+
+#topicMenu a, .bbcFooter ul li a, #copyrightStuff * {
   font-size: 12px;
 }
 
@@ -95,7 +109,7 @@ header *, #mainReport h3 a, #mainReport p, .blackBackground a, .blackBackground 
   font-weight: 900;
 }
 
-.expertInfo ul li a, .programmes h4, .allArticlesWrapper h1, .liveImage a, .asideMainHeader, .mostPop h3, .mostPop li a, .subArticleMoreUK h3 a, .blackBackground a, #findRep h2 {
+.expertInfo ul li a, .programmes h4, .allArticlesWrapper h1, .liveImage a, .asideMainHeader, .mostPop h3, .mostPop li a, .subArticleMoreUK h3 a, .blackBackground a, #findRep h2, .footerSerices li a, .aboutWrap li a, .footerSerices h2 {
   font-weight: 700;
 }
 
