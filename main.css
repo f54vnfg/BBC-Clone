@@ -171,7 +171,7 @@ body {
 }
 
 #topicMenu {
-  padding-top: 5px;
+  padding-top: 6px;
 }
 
 #topicMenu ul {
@@ -497,6 +497,7 @@ body {
   margin-top: 10px;
   margin-bottom: 30px;
 }
+
 #findRep h2 {
   padding: 12px 0 8px;
 }
@@ -710,3 +711,34 @@ body {
 }
 
 /* ----------- Aside - ENDS --------- */
+
+/* ----------- Aside - ENDS --------- */
+
+/* --------- Footer - Start --------- */
+
+.footerSerices ul, .aboutWrap ul, .bbcFooter ul {
+  padding: 0;
+}
+
+.footerSerices li a {
+  float: left;
+  padding: 20px 60px 20px 0;
+}
+
+.bbcFooter {
+  /* margin-bottom: 50px; */
+}
+
+.bbcFooter ul li {
+  float: left;
+  padding-right: 20px;
+  width: 100px;
+}
+
+/* #copyrightStuff {
+  display: block;
+  width: 300px;
+  height: 30px;
+} */
+
+/* --------- Footer - Start --------- */
