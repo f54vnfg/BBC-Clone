@@ -18,20 +18,23 @@ header *, #mainReport h3 a, #mainReport p, .blackBackground a, .blackBackground 
   color: white;
 }
 
-.articleBox a, .allArticlesWrapper h1 a, .articleSmallBox a, .AlsoInTheNews h3, .theExpert span a, .expertInfo ul li, .expertInfo ul li a, #expertMoreInfo h2 a, #expertMoreInfo p a {
- color: #1F4F82;
-}
-
-
- .liveImage a, .featNana a h3, .mostPop li a, .footerWrap h2 a, .aboutWrap h2, .footerSerices ul li a, .aboutWrap ul li a {
+.articleBox a, .allArticlesWrapper h1 a, .articleSmallBox a, .theExpert span a, .expertInfo ul li, .expertInfo ul li a, #expertMoreInfo h2 a, #expertMoreInfo p a, .AlsoInTheNews h3 a {
   color: #1F4F82;
 }
 
-#liSelected a, .articleBox p, .articleSmallBox p, .AlsoInTheNews h2, .localNews a, #OurExperth2 #expertMoreInfo p, .asideMainHeader, .featNana a p, .mostPop h3, .mostPop li p, .subArticleMoreUK *, .footerSerices h2 {
+.liveImage a, .featNana a h3, .mostPop li a, .footerWrap h2 a, .aboutWrap h2, .footerSerices ul li a, .aboutWrap ul li a, .displayAsBlock h3 a {
+  color: #1F4F82;
+}
+
+#demoLive h2, #bbcTravel h2, #moreFromUK h2, #specialReports h2, #OurExpert h2, .AlsoInTheNews h2, #moreReports a {
+  color: #1F4F82;
+}
+
+#liSelected a, .articleBox p, .articleSmallBox p, .AlsoInTheNews h2, .localNews a, #OurExperth2 #expertMoreInfo p, .asideMainHeader, .featNana a p, .mostPop h3, .mostPop li p, .subArticleMoreUK *, .footerSerices h2, .displayAsBlock p, #moreReports p {
   color: #505050;
 }
 
-.bbcFooter ul li a, #copyrightStuff *  {
+.bbcFooter ul li a, #copyrightStuff * {
   color: #4c4c4c;
 }
 
@@ -78,7 +81,7 @@ header *, #mainReport h3 a, #mainReport p, .blackBackground a, .blackBackground 
   font-size: 18px;
 }
 
-.articleBox h3 a, .articleSmallBox h3 a, .AlsoInTheNews h3, .localNewsDiv h2, .localNewsDiv h2 a, #exOrange, #expertMoreInfo h2, #expertMoreInfo h2 a, .featNana a h3, .mostPop h3, .subArticleMoreUK h3 a, .blackBackground a, #findRep h2 {
+.articleBox h3 a, .articleSmallBox h3 a, .AlsoInTheNews h3, .localNewsDiv h2, .localNewsDiv h2 a, #exOrange, #expertMoreInfo h2, #expertMoreInfo h2 a, .featNana a h3, .mostPop h3, .subArticleMoreUK h3 a, .blackBackground a, #findRep h2, .displayAsBlock h3 a, #mainReport h3 a {
   font-size: 16px;
 }
 
@@ -86,14 +89,13 @@ header *, #mainReport h3 a, #mainReport p, .blackBackground a, .blackBackground 
   font-size: 13px;
 }
 
-.asideVideoBox, .liveImage a, .mostPop li a, .mostPop li p, .programmes h4, .blackBackground span. .footerSerices li a {
+.asideVideoBox, .liveImage a, .mostPop li a, .mostPop li a, .programmes h4, .blackBackground span .footerSerices li a, #moreReports a, #mainReport p {
   font-size: 13px;
 }
 
-.aboutWrap li a, .footerSerices ul li a {
+.aboutWrap li a, .footerSerices ul li a, .displayAsBlock p, #moreReports p {
   font-size: 13px;
 }
-
 
 #topicMenu a, .bbcFooter ul li a, #copyrightStuff * {
   font-size: 12px;
@@ -109,11 +111,11 @@ header *, #mainReport h3 a, #mainReport p, .blackBackground a, .blackBackground 
   font-weight: 900;
 }
 
-.expertInfo ul li a, .programmes h4, .allArticlesWrapper h1, .liveImage a, .asideMainHeader, .mostPop h3, .mostPop li a, .subArticleMoreUK h3 a, .blackBackground a, #findRep h2, .footerSerices li a, .aboutWrap li a, .footerSerices h2 {
+.expertInfo ul li a, .programmes h4, .allArticlesWrapper h1, .liveImage a, .asideMainHeader, .mostPop h3, .mostPop li a, .subArticleMoreUK h3 a, .blackBackground a, #findRep h2, .footerSerices li a, .aboutWrap li a, .footerSerices h2, .displayAsBlock h3 a, #moreReports p, #moreReports a {
   font-weight: 700;
 }
 
-.programmes P, .articleBox p, .blackBackground span {
+.programmes P, .articleBox p, .blackBackground span, .displayAsBlock p {
   font-weight: 400;
 }
 
