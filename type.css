@@ -89,7 +89,7 @@ header *, #mainReport h3 a, #mainReport p, .blackBackground a, .blackBackground 
   font-size: 13px;
 }
 
-.asideVideoBox, .liveImage a, .mostPop li a, .mostPop li a, .programmes h4, .blackBackground span .footerSerices li a, #moreReports a, #mainReport p {
+.asideVideoBox, .liveImage a, .mostPop li a, .mostPop li a, .programmes h4, .blackBackground span .footerSerices li a, #moreReports a, #mainReport p, .blackBackground span  {
   font-size: 13px;
 }
 
@@ -115,13 +115,13 @@ header *, #mainReport h3 a, #mainReport p, .blackBackground a, .blackBackground 
   font-weight: 700;
 }
 
-.programmes P, .articleBox p, .blackBackground span, .displayAsBlock p {
+/* .programmes P, .articleBox p, .blackBackground span, .displayAsBlock p {
   font-weight: 400;
 }
 
 #expertMoreInfo h2 {
   font-weight: normal;
-}
+} */
 
 /* ----------- Font-Heights ----------- */
 
