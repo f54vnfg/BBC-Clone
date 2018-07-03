@@ -8,7 +8,7 @@ li {
   list-style-type: none;
 }
 
-.liveImage a:hover, .asideVideoBox li a:hover, #rss a:hover, #topicMenu a:hover, .allArticlesWrapper a:hover, .localNewsSubDivs a:hover, .featNana a h3:hover, .mostPop li a:hover, .programmes h4:hover {
+.liveImage a:hover, .asideVideoBox li a:hover, #rss a:hover, #topicMenu a:hover, .allArticlesWrapper a:hover, .localNewsSubDivs a:hover, .featNana a h3:hover, .mostPop li a:hover, .programmes h4:hover, footer a:hover {
   text-decoration: underline;
 }
 
