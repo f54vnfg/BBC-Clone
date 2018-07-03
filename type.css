@@ -93,7 +93,7 @@ header *, #mainReport h3 a, #mainReport p, .blackBackground a, .blackBackground 
   font-size: 13px;
 }
 
-.aboutWrap li a, .footerSerices ul li a, .displayAsBlock p, #moreReports p {
+.aboutWrap li a, .footerSerices ul li a, .displayAsBlock p, #moreReports p, .mostPop li p {
   font-size: 13px;
 }
 
@@ -127,4 +127,8 @@ header *, #mainReport h3 a, #mainReport p, .blackBackground a, .blackBackground 
 
 .articleBox p, .articleSmallBox p, #topMenuDiv a, #topMenuDiv a {
   line-height: 16px;
+}
+
+.allArticlesWrapper h1 a {
+  line-height: 32px;
 }

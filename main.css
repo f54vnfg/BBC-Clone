@@ -33,6 +33,11 @@ body {
   border-right: 1px solid #990000;
 }
 
+.loiginDiv {
+  width: 170px;
+  height: 40px;
+}
+
 #topBar {
   background-color: rgba(80, 80, 80, .40);
   width: 100%;
@@ -741,8 +746,8 @@ body {
   padding-right: 0;
 }
 
-.bbcFooter img{
-margin-top: 15px;
+.bbcFooter img {
+  margin-top: 15px;
 }
 
 .bbcFooter ul {
@@ -757,7 +762,7 @@ margin-top: 15px;
 }
 
 #copyrightStuff {
-padding-top: 20px;
+  padding-top: 20px;
 }
 
 .bbcFooter {
