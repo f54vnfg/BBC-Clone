@@ -1,6 +1,6 @@
 # BBC-Clone
 This is a clone of the BBC UK News Page from 20 April 2014. 
-Built using HTML5 and CSS, no JavaScript has been used.
+Built using HTML5 and CSS, no JavaScript was used.
 
 This project started as me following few online tutorials, but after being disappointed with how shallow they were, I decided to re-do what I had done in a better way and finish the page myself.
 
