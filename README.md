@@ -6,5 +6,3 @@ This project started as me following few online tutorials, but after being disap
 
 Click <a href="https://f54vnfg.github.io/BBC-Clone/"> <strong>Here</strong></a> to view the Web Page.
 Click <a href="https://web.archive.org/web/20140420051805/http://www.bbc.co.uk/news/uk/"> Here</a> to view the original.
-
--------
