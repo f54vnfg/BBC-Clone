@@ -211,7 +211,7 @@ body {
 }
 
 #mainDate {
-  padding: 12px 0 0px;
+  padding: 12px 0 0;
 }
 
 .allArticlesWrapper {
@@ -683,7 +683,7 @@ body {
 }
 
 .programmesBox img {
-  padding: 8px 8px 0px;
+  padding: 8px 8px 0;
 }
 
 .programmes {
