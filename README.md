@@ -10,5 +10,5 @@ Potential improvements:
  - Shrink font size definitions into just a few.
  - Shrink type.css, maybe use classes?
 
-Click <a href="https://f54vnfg.github.io/BBC-Clone/"> <strong>BBC-WebPage-Clone</strong></a> to view the web page.  
+Click <a href="https://f54vnfg.github.io/BBC-WebPage-Clone/"> <strong>BBC-WebPage-Clone</strong></a> to view the web page.  
 Click <a href="https://web.archive.org/web/20140420051805/http://www.bbc.co.uk/news/uk/">web.archive.org</a> to view the original web page.
